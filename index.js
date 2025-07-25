@@ -25,7 +25,7 @@ app.use("/api/jobs", jobRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/applications", applicationRoutes);
 
-// Root route (optional)
+// Root route
 app.get("/", (req, res) => {
   res.send("Welcome to Mini Job Board Backend");
 });
