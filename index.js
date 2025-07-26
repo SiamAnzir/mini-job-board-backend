@@ -14,8 +14,8 @@ const app = express();
 
 // Middleware
 app.use(cors());
-app.use(express.json()); // For parsing application/json
-app.use(express.urlencoded({ extended: true })); // For parsing form data
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 // Static folder to serve uploaded CVs
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
@@ -25,7 +25,6 @@ app.use("/api/jobs", jobRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/applications", applicationRoutes);
 
-// Root route
 app.get("/", (req, res) => {
   res.send("Welcome to Mini Job Board Backend");
 });

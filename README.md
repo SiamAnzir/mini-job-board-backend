@@ -5,7 +5,7 @@ Built with **Express.js** and **MongoDB**, it provides REST APIs for jobs, appli
 
 ---
 
-## 🚀 Live API
+## 🚀 Live URL
 
 Backend: **[https://mini-job-board-backend-production.up.railway.app/](https://mini-job-board-backend-production.up.railway.app/)**
 
@@ -40,8 +40,6 @@ Backend: **[https://mini-job-board-backend-production.up.railway.app/](https://m
 
 ## 📦 Installation
 
-### 1. Clone & Install
-
 ```bash
 git clone https://github.com/SiamAnzir/mini-job-board-backend.git
 cd mini-job-board-backend
@@ -50,6 +48,7 @@ npm install
 ### 2. Set Environment Variables
 
 Create a .env file in the root directory and add:
+
 PORT=5000
 MONGO_URI=mongodb+srv://siamanzir:5YT4OsTzd6vozFgh@assignment8.b7ccebw.mongodb.net/mini_job_board?retryWrites=true&w=majority&appName=assignment8
 JWT_SECRET=b95ef55438a208df577e19b343b8a2f1bc6073426500f8b18b448888c1d3c93da7f2bcce840c39ef593e6574375d37d5216097ae1d95632c161ebd1ddc977378
