@@ -31,7 +31,6 @@ exports.postJob = async (req, res) => {
       title,
       description,
       company,
-      email,
       requiredSkills,
       responsibilities,
       experience,
